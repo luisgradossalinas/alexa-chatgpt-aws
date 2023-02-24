@@ -50,5 +50,11 @@ Clic en Build Model.
 
 ![Captura de Pantalla 2023-02-24 a la(s) 17 36 12](https://user-images.githubusercontent.com/2066453/221308472-451daaf4-3606-49e4-82db-0549ce9fc10a.png)
 
+Clic en Endpoint.
+
+Copiamos el valor de Your skill ID, y lo asociamos a nuestra función Lambda.
+En default region indicamos el ARN de nuestra Lambda.
+
+![Captura de Pantalla 2023-02-24 a la(s) 18 03 31](https://user-images.githubusercontent.com/2066453/221317285-e0e2773d-3824-4b66-808d-74e97e213d27.png)
 
 
