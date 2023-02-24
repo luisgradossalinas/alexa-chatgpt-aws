@@ -10,7 +10,7 @@ Elegimos:
 
 - Choose a type of experience : Other
 - Choose a model : Custome
-- Hosting services : Por definir
+- Hosting services : Provision your own.
 
 Clic en NEXT
 
