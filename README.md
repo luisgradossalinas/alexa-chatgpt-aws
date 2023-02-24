@@ -40,6 +40,12 @@ Indicamos por ejemplo el nombre : ChatgptIntent y clic en Create custom intent.
 
 ![Captura de Pantalla 2023-02-24 a la(s) 17 19 17](https://user-images.githubusercontent.com/2066453/221304213-9e3fd73f-cc3d-4099-bd89-a8c9b466cef3.png)
 
+Creamos unas posibles preguntas que recibirá nuestra intención.
+
+![Captura de Pantalla 2023-02-24 a la(s) 17 34 41](https://user-images.githubusercontent.com/2066453/221307992-87c5d0ce-e38c-42b0-83b9-c954ccfbee79.png)
+
+El tipo de slot será AMAZON.SearchQuery.
+
 
 
 
