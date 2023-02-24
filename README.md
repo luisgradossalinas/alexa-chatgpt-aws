@@ -46,6 +46,9 @@ Creamos unas posibles preguntas que recibirá nuestra intención.
 
 El tipo de slot será AMAZON.SearchQuery.
 
+Clic en Build Model.
+
+![Captura de Pantalla 2023-02-24 a la(s) 17 36 12](https://user-images.githubusercontent.com/2066453/221308472-451daaf4-3606-49e4-82db-0549ce9fc10a.png)
 
 
 
