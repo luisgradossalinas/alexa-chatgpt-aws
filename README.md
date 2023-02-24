@@ -32,4 +32,14 @@ Definimos una palabra para invocar a nuestro skill.
 
 ![Captura de Pantalla 2023-02-24 a la(s) 17 16 11](https://user-images.githubusercontent.com/2066453/221303793-976a4528-feaa-45a7-b036-914cd459a5ae.png)
 
+Creamos ahora una intención para usar CHATGPT, clic en Add Intent.
+
+![Captura de Pantalla 2023-02-24 a la(s) 17 17 33](https://user-images.githubusercontent.com/2066453/221303986-bd1530c6-0af0-402a-b2d1-d2cfdb0a1926.png)
+
+Indicamos por ejemplo el nombre : ChatgptIntent y clic en Create custom intent.
+
+![Captura de Pantalla 2023-02-24 a la(s) 17 19 17](https://user-images.githubusercontent.com/2066453/221304213-9e3fd73f-cc3d-4099-bd89-a8c9b466cef3.png)
+
+
+
 
