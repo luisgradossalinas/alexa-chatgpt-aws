@@ -12,7 +12,11 @@ Elegimos:
 - Choose a model : Custome
 - Hosting services : Por definir
 
+Clic en NEXT
+
 ![Captura de Pantalla 2023-02-24 a la(s) 16 59 13](https://user-images.githubusercontent.com/2066453/221301265-3ff49fc3-1336-4de2-a394-b6392b636de5.png)
 
-Clic en NEXT
+Clic en Start from Scratch y Next.
+
+![Captura de Pantalla 2023-02-24 a la(s) 17 00 40](https://user-images.githubusercontent.com/2066453/221301472-b4b9a280-720d-4f77-a86e-2c128e13034d.png)
 
