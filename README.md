@@ -28,3 +28,8 @@ Nos aparecerá la siguiente pantalla.
 
 ![Captura de Pantalla 2023-02-24 a la(s) 17 13 43](https://user-images.githubusercontent.com/2066453/221303471-48b6f99f-9d92-4b0c-aa16-09fb153da3a5.png)
 
+Definimos una palabra para invocar a nuestro skill.
+
+![Captura de Pantalla 2023-02-24 a la(s) 17 16 11](https://user-images.githubusercontent.com/2066453/221303793-976a4528-feaa-45a7-b036-914cd459a5ae.png)
+
+
