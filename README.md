@@ -1,5 +1,7 @@
 # alexa-chatgpt-python
 
+![AlexaChatGPT](https://user-images.githubusercontent.com/2066453/222492876-56d9d571-5ff4-4758-9f0b-feaef090e578.png)
+
 Crear un nuevo Skill en Alexa.
 
 Ir a https://developer.amazon.com/alexa/console/ask/create-new-skill/name, definimos un nombre para nuestro skill
