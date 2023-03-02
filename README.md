@@ -38,9 +38,9 @@ Creamos ahora una intención para usar CHATGPT, clic en Add Intent.
 
 ![Captura de Pantalla 2023-02-24 a la(s) 17 17 33](https://user-images.githubusercontent.com/2066453/221303986-bd1530c6-0af0-402a-b2d1-d2cfdb0a1926.png)
 
-Indicamos por ejemplo el nombre : ChatgptIntent y clic en Create custom intent.
+Indicamos por ejemplo el nombre : PreguntaIntent y clic en Create custom intent.
 
-![Captura de Pantalla 2023-02-24 a la(s) 17 19 17](https://user-images.githubusercontent.com/2066453/221304213-9e3fd73f-cc3d-4099-bd89-a8c9b466cef3.png)
+<img width="838" src="https://user-images.githubusercontent.com/2066453/222501607-480de4ab-4a6f-4af6-bdc2-f1aff3087215.png">
 
 Creamos unas posibles preguntas que recibirá nuestra intención.
 
