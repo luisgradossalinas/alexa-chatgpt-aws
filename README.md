@@ -48,6 +48,10 @@ Creamos unas posibles preguntas que recibirá nuestra intención.
 
 El tipo de slot será AMAZON.SearchQuery.
 
+Creamos otra intención llamada DespedidaIntent con el siguinete input.
+
+<img width="997" src="https://user-images.githubusercontent.com/2066453/222502215-d80f7925-1415-4e53-bb04-b3be428cca43.png">
+
 Clic en Build Model.
 
 ![Captura de Pantalla 2023-02-24 a la(s) 17 36 12](https://user-images.githubusercontent.com/2066453/221308472-451daaf4-3606-49e4-82db-0549ce9fc10a.png)
