@@ -6,6 +6,8 @@ Crear un nuevo Skill en Alexa.
 
 Ir a https://developer.amazon.com/alexa/console/ask/create-new-skill/name, definimos un nombre para nuestro skill
 
+<img width="991" src="https://user-images.githubusercontent.com/2066453/222503030-61148526-c1b7-4422-a5d8-4375ad2e43cd.png">
+
 ![Captura de Pantalla 2023-02-24 a la(s) 16 57 20](https://user-images.githubusercontent.com/2066453/221300992-8078ae4f-18d3-4dd2-aae2-db1a42c1ac1c.png)
 
 Elegimos:
