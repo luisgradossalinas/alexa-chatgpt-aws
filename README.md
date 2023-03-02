@@ -44,7 +44,7 @@ Indicamos por ejemplo el nombre : PreguntaIntent y clic en Create custom intent.
 
 Creamos unas posibles preguntas que recibirá nuestra intención.
 
-![Captura de Pantalla 2023-02-24 a la(s) 17 34 41](https://user-images.githubusercontent.com/2066453/221307992-87c5d0ce-e38c-42b0-83b9-c954ccfbee79.png)
+<img width="906" src="https://user-images.githubusercontent.com/2066453/222501893-f003bbdf-2d9f-4fbe-9f61-3008ba951465.png">
 
 El tipo de slot será AMAZON.SearchQuery.
 
