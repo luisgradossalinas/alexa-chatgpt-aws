@@ -1,0 +1,90 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: "Integration Lambda with CHATGPT"
+
+Parameters:
+
+  pNameSecret:
+    Type: String
+    Default: SecretsGPTToken
+
+  pTableName:
+    Type: String
+    Default: chatgpt_data
+
+Resources:
+        
+  rDynamoDBTableChatGPT: 
+      Type: AWS::DynamoDB::Table
+      Properties: 
+          TableName: !Ref pTableName
+          AttributeDefinitions: 
+          - 
+            AttributeName: "id"
+            AttributeType: "S"
+          KeySchema: 
+          - 
+            AttributeName: "id"
+            KeyType: "HASH"
+          BillingMode : PAY_PER_REQUEST
+
+  rSecretCHATGPT:
+    Type: 'AWS::SecretsManager::Secret'
+    Properties:
+      Name: !Ref pNameSecret
+      Description: Almacena token del bot de Telegram
+      SecretString: '{"chatgpt_token":"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"}'
+
+  rLambdaChatGPT:
+    Type: AWS::Lambda::Function
+    Properties:
+      Runtime: python3.9
+      FunctionName: !Sub 'fnc-alexa-skill-chatgpt-save-dynamodb'
+      Description: Integrate with ChatGPT
+      Role: !GetAtt rLambdaChatGPTRole.Arn
+      Handler: index.lambda_handler
+      Timeout: 500
+      MemorySize: 128
+      Code:
+        ZipFile: |
+            import json
+
+            def lambda_handler(event, context):
+                
+                return {
+                    'statusCode': 200,
+                    'resp' : "ok"
+                }
+        
+  rLambdaChatGPTRole:
+    Type: "AWS::IAM::Role"
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: "Allow"
+            Principal:
+              Service:
+                - !Sub lambda.${AWS::Region}.amazonaws.com
+            Action: "sts:AssumeRole"
+      Path: "/"
+      Policies:
+        - PolicyName: !Sub 'PolicyCHATGPTAlexa'
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                - logs:CreateLogStream
+                - logs:PutLogEvents
+                - logs:CreateLogGroup
+                Resource: !Sub 'arn:aws:logs:${AWS::Region}:${AWS::AccountId}:*'
+              - Effect: Allow
+                Action:
+                  - "secretsmanager:GetSecretValue"
+                Resource: "*"
+              - Effect: Allow
+                Action:
+                  - "dynamodb:CreateTable"
+                  - "dynamodb:PutItem"
+                  - "dynamodb:GetItem"
+                Resource: "*"
