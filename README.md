@@ -63,4 +63,7 @@ Creamos un nuevo stack en CloudFormation, a partir del archivo chatgpt.yaml.
 
 La lambda le actualizado el código.
 
-Le asociado un desencadenador que será Alexa Skills.
+Le asociado un desencadenador que será Alexa Skills, le indicamos el Skill ID de nueva skill.
+
+<img width="794" src="https://user-images.githubusercontent.com/2066453/222495499-7192c53b-b802-426c-a8af-10e9c356d835.png">
+
