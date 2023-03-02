@@ -59,4 +59,8 @@ En default region indicamos el ARN de nuestra Lambda.
 
 ![Captura de Pantalla 2023-02-24 a la(s) 18 03 31](https://user-images.githubusercontent.com/2066453/221317285-e0e2773d-3824-4b66-808d-74e97e213d27.png)
 
+Creamos un nuevo stack en CloudFormation, a partir del archivo chatgpt.yaml.
 
+La lambda le actualizado el código.
+
+Le asociado un desencadenador que será Alexa Skills.
