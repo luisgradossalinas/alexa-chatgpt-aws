@@ -32,7 +32,7 @@ Nos aparecerá la siguiente pantalla.
 
 Definimos una palabra para invocar a nuestro skill.
 
-![Captura de Pantalla 2023-02-24 a la(s) 17 16 11](https://user-images.githubusercontent.com/2066453/221303793-976a4528-feaa-45a7-b036-914cd459a5ae.png)
+<img width="892" src="https://user-images.githubusercontent.com/2066453/222496118-33986a70-9d08-4837-8d7c-5af2177efc15.png">
 
 Creamos ahora una intención para usar CHATGPT, clic en Add Intent.
 
