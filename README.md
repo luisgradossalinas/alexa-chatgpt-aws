@@ -58,7 +58,11 @@ Clic en Save model y Build Model.
 
 Creamos un nuevo stack en CloudFormation, a partir del archivo chatgpt.yaml.
 
-La lambda le actualizado el código.
+Actualizar el código de la lambda con el archivo zip code/alexa02mar.zip.
+
+Lo subimos al bucket de S3, y le indicamos la url.
+
+<img width="942" src="https://user-images.githubusercontent.com/2066453/222504942-753615b9-88d9-487f-992f-86b89561b609.png">
 
 Le asociado un desencadenador que será Alexa Skills, le indicamos el Skill ID de nueva skill.
 
