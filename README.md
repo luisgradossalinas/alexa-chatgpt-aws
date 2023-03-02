@@ -52,13 +52,6 @@ Clic en Build Model.
 
 ![Captura de Pantalla 2023-02-24 a la(s) 17 36 12](https://user-images.githubusercontent.com/2066453/221308472-451daaf4-3606-49e4-82db-0549ce9fc10a.png)
 
-Clic en Endpoint.
-
-Copiamos el valor de Your skill ID, y lo asociamos a nuestra función Lambda.
-En default region indicamos el ARN de nuestra Lambda.
-
-![Captura de Pantalla 2023-02-24 a la(s) 18 03 31](https://user-images.githubusercontent.com/2066453/221317285-e0e2773d-3824-4b66-808d-74e97e213d27.png)
-
 Creamos un nuevo stack en CloudFormation, a partir del archivo chatgpt.yaml.
 
 La lambda le actualizado el código.
@@ -66,4 +59,13 @@ La lambda le actualizado el código.
 Le asociado un desencadenador que será Alexa Skills, le indicamos el Skill ID de nueva skill.
 
 <img width="794" src="https://user-images.githubusercontent.com/2066453/222495499-7192c53b-b802-426c-a8af-10e9c356d835.png">
+
+Regresamos a la consola de Alexa.
+
+Clic en Endpoint.
+
+Copiamos el valor de Your skill ID, y lo asociamos a nuestra función Lambda.
+En default region indicamos el ARN de nuestra Lambda.
+
+![Captura de Pantalla 2023-02-24 a la(s) 18 03 31](https://user-images.githubusercontent.com/2066453/221317285-e0e2773d-3824-4b66-808d-74e97e213d27.png)
 
