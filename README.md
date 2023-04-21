@@ -107,6 +107,10 @@ Espero te haya servido esta solución, si pudiste replicarlo, puedes publicarlo 
 
 ## Eliminar recursos en AWS
 
+Ejecutar en Cloud9.
+
 	aws s3 ls | grep alexachatgpt-code | awk {'print "aws s3 rb s3://" $3 " --f"'} | sh
 	aws cloudformation delete-stack --stack-name StackAlexaChatGPT	
 	echo "Stack StackAlexaChatGPT eliminándose"
+
+Eliminamos el entorno de Cloud9.
