@@ -95,7 +95,7 @@ Clic en Test para probar desde la consola nuestra Skill.
 
 Ahora puedes preguntar lo que desees a ChatGPT usando una Skill de Alexa.
 
-ddddd
+![image](https://user-images.githubusercontent.com/2066453/233707636-c2bf8596-465d-45d1-b44a-451908ab7623.png)
 
 ## Eliminar recursos en AWS
 
