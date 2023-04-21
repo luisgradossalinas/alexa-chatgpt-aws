@@ -99,6 +99,8 @@ Ahora puedes preguntar lo que desees a ChatGPT usando una Skill de Alexa.
 
 Si tenemos un dispositivo Echo Dot, también podemos utilizar esta skill.
 
+Espero te haya servido esta solución, si pudiste replicarlo, puedes publicarlo en LinkedIn con tus aportes, cambios y etiquétame (https://www.linkedin.com/in/luisgrados).
+
 ## Eliminar recursos en AWS
 
 	aws s3 ls | grep alexachatgpt-code | awk {'print "aws s3 rb s3://" $3 " --f"'} | sh
