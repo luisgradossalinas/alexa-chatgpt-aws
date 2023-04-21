@@ -32,7 +32,7 @@ Resources:
     Properties:
       Name: !Ref pNameSecret
       Description: Almacena token del bot de Telegram
-      SecretString: '{"chatgpt_token":"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"}'
+      SecretString: '{"chatgpt_token":"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"}' #Ingresa tu token
 
   rLambdaChatGPT:
     Type: AWS::Lambda::Function
