@@ -37,7 +37,7 @@ Resources:
     Properties:
       Name: !Ref pNameSecret
       Description: Almacena token de OpenAI
-      SecretString: '{"chatgpt_token":"sk-2dl7JRskMve1lY1xLROeT4BlbkFJPoNM7HGdvVZhz7O9jgGE"}' #Ingresa tu token
+      SecretString: '{"chatgpt_token":"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"}' #Ingresa tu token
 
   rLambdaChatGPT:
     Type: AWS::Lambda::Function
