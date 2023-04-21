@@ -88,13 +88,3 @@ Ahora copiamos el ARN de la función Lambda, para asociarlo al Skill de Alexa.
 Volvemos a Alexa Console y pegamos el valor del ARN de la función Lambda, clic en Save Endpoints.
 
 <img width="691" src="https://user-images.githubusercontent.com/2066453/233699750-eea55320-18db-4e01-8cee-3f7f1bb530f8.png">
-
-Clic en Endpoint.
-
-Copiamos el valor de Your skill ID, y lo asociamos a nuestra función Lambda.
-En default region indicamos el ARN de nuestra Lambda.
-
-Clic en Save Endpoints.
-
-![Captura de Pantalla 2023-02-24 a la(s) 18 03 31](https://user-images.githubusercontent.com/2066453/221317285-e0e2773d-3824-4b66-808d-74e97e213d27.png)
-
