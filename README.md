@@ -1,6 +1,6 @@
 # alexa-chatgpt-python
 
-![AlexaChatGPT](https://user-images.githubusercontent.com/2066453/222492876-56d9d571-5ff4-4758-9f0b-feaef090e578.png)
+<img width="991" src="https://user-images.githubusercontent.com/2066453/233669157-99ea9943-90cd-4d2d-8793-0b725036904f.png">
 
 Crear un nuevo Skill en Alexa.
 
