@@ -52,6 +52,10 @@ Clic en Save model y Build Model.
 
 ![Captura de Pantalla 2023-02-24 a la(s) 17 36 12](https://user-images.githubusercontent.com/2066453/221308472-451daaf4-3606-49e4-82db-0549ce9fc10a.png)
 
+## Accedemos a nuestra de AWS y crearemos un entorno de Cloud9, donde clonaremos el repositorio.
+
+<img width="991" src="https://user-images.githubusercontent.com/2066453/233682805-64683d49-1ff9-44f5-8335-d4f7fd7471ce.png">
+
 Creamos un nuevo stack en CloudFormation, a partir del archivo chatgpt.yaml.
 
 Actualizar el código de la lambda con el archivo zip code/alexa02mar.zip.
