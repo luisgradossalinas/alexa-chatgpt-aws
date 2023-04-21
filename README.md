@@ -2,12 +2,12 @@
 
 <img width="991" src="https://user-images.githubusercontent.com/2066453/233669157-99ea9943-90cd-4d2d-8793-0b725036904f.png">
 
-Requisitos
+## Requisitos
 
 - Tener una cuenta en AWS - https://gist.github.com/luisgradossalinas/c233c0333022c6617dd70609bfdf6441
 - Tener una cuenta en OpenAI - https://gist.github.com/luisgradossalinas/45c1c5ed27b7f73e0d3cf3bc0fbe846d
 
-Video con la explicación
+## Video con la explicación
 
 Youtube - https://www.youtube.com/watch?v=fwTLeF1DOVk
 
