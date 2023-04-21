@@ -11,7 +11,7 @@
 
 Youtube - https://www.youtube.com/watch?v=fwTLeF1DOVk
 
-<img width="491" src="https://user-images.githubusercontent.com/2066453/233724168-3947aa77-a608-4951-a1d8-bcd377e4c505.png">
+[![aws](https://github.com/luisgradossalinas/2066453/233724168-3947aa77-a608-4951-a1d8-bcd377e4c505.pn)](https://www.youtube.com/watch?v=fwTLeF1DOVk)
 
 ## Creando Skill en Alexa.
 
