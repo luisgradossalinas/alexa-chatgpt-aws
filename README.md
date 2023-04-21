@@ -69,8 +69,9 @@ Esperamos que se cree el stack en CloudFormation.
 
 <img width="691" src="https://user-images.githubusercontent.com/2066453/233698317-b171b5a9-d45c-4909-b745-6d94a677aed7.png">
 
-Volvemos a Alexa y nos ubicamos en la opción Endpoint.
+Volvemos a Alexa y nos ubicamos en la opción Endpoint, copiamos el valor de nuestro Skill ID para asociarlo a la función Lambda creada en AWS.
 
+<img width="691" src="https://user-images.githubusercontent.com/2066453/233698594-cb5d5e21-8106-4306-b79f-d35c06376ef2.png">
 
 <img width="794" src="https://user-images.githubusercontent.com/2066453/222495499-7192c53b-b802-426c-a8af-10e9c356d835.png">
 
