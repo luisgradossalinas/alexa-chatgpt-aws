@@ -43,20 +43,6 @@ Veremos las 2 intenciones que se han agregado : PreguntaIntent y DespedidaIntent
 
 <img width="991" src="https://user-images.githubusercontent.com/2066453/233674483-94331ef4-66df-4e55-b35d-398d4194381a.png">
 
-Indicamos por ejemplo el nombre : PreguntaIntent y clic en Create custom intent.
-
-<img width="838" src="https://user-images.githubusercontent.com/2066453/222501607-480de4ab-4a6f-4af6-bdc2-f1aff3087215.png">
-
-Creamos unas posibles preguntas que recibirá nuestra intención.
-
-<img width="906" src="https://user-images.githubusercontent.com/2066453/222501893-f003bbdf-2d9f-4fbe-9f61-3008ba951465.png">
-
-El tipo de slot será AMAZON.SearchQuery.
-
-Creamos otra intención llamada DespedidaIntent con el siguiente input.
-
-<img width="997" src="https://user-images.githubusercontent.com/2066453/222502215-d80f7925-1415-4e53-bb04-b3be428cca43.png">
-
 Clic en Save model y Build Model.
 
 ![Captura de Pantalla 2023-02-24 a la(s) 17 36 12](https://user-images.githubusercontent.com/2066453/221308472-451daaf4-3606-49e4-82db-0549ce9fc10a.png)
