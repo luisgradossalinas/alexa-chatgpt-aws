@@ -1,4 +1,4 @@
-# alexa-chatgpt-python
+# Integración de Alexa Skill con ChatGPT usando servicios de AWS (Lambda, Secrets Manager y DynamoDB)
 
 <img width="991" src="https://user-images.githubusercontent.com/2066453/233669157-99ea9943-90cd-4d2d-8793-0b725036904f.png">
 
@@ -6,7 +6,7 @@ Requisitos
 
 - Tener una cuenta en AWS - https://gist.github.com/luisgradossalinas/c233c0333022c6617dd70609bfdf6441
 
-Crear un nuevo Skill en Alexa.
+## Creando Skill en Alexa.
 
 Ir a https://developer.amazon.com/alexa/console/ask/create-new-skill/name, definimos un nombre para nuestro skill
 
