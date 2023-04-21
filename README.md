@@ -103,6 +103,8 @@ Si queremos ver esta interacción, podemos ir a AWS, al servicio de DynamoDB y e
 
 Si tenemos un dispositivo Echo Dot, también podemos utilizar esta skill.
 
+## Agradecimientos
+
 Espero te haya servido esta solución, si pudiste replicarlo, puedes publicarlo en LinkedIn con tus aportes, cambios y etiquétame (https://www.linkedin.com/in/luisgrados).
 
 ## Eliminar recursos en AWS
