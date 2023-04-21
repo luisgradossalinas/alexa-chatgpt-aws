@@ -13,7 +13,7 @@ Youtube - https://www.youtube.com/watch?v=fwTLeF1DOVk
 
 [![aws](https://user-images.githubusercontent.com/2066453/233724168-3947aa77-a608-4951-a1d8-bcd377e4c505.png)](https://www.youtube.com/watch?v=fwTLeF1DOVk)
 
-## Creando Skill en Alexa.
+## Creando Skill en Alexa
 
 Ir a https://developer.amazon.com/alexa/console/ask/create-new-skill/name, definimos un nombre para nuestro skill
 
