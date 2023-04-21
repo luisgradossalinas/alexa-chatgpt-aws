@@ -60,14 +60,14 @@ Abrir el contenido del archivo chatgpt.yaml e ingresamos en la línea 40 nuestro
 
 <img width="791" src="https://user-images.githubusercontent.com/2066453/233698021-ac835ab5-63aa-4c2d-8c87-4bec57423c7d.png">
 
-ingresar imagen
-
 Ejecutar en Cloud9
 
 	cd alexa-chatgpt-aws/
 	sh sh/01_Start_Deploy.sh
 
 Esperamos que se cree el stack en CloudFormation.
+
+<img width="691" src="https://user-images.githubusercontent.com/2066453/233698317-b171b5a9-d45c-4909-b745-6d94a677aed7.png">
 
 Volvemos a Alexa y nos ubicamos en la opción Endpoint.
 
