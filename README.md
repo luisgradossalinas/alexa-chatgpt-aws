@@ -34,6 +34,11 @@ Definimos una palabra para invocar a nuestro skill.
 
 <img width="892" src="https://user-images.githubusercontent.com/2066453/222496118-33986a70-9d08-4837-8d7c-5af2177efc15.png">
 
+Importamos un archivo json que contiene las intenciones con los utterances del Skill, clic en JSON editor.
+E importamos el archivo json que se encuentra en la ruta skill/alexa-skill.json
+
+<img width="991" src="https://user-images.githubusercontent.com/2066453/233672613-6ddb0a77-129c-447e-838d-c2d2a1ee2be0.png">
+
 Creamos ahora una intención para usar CHATGPT, clic en Add Intent.
 
 ![Captura de Pantalla 2023-02-24 a la(s) 17 17 33](https://user-images.githubusercontent.com/2066453/221303986-bd1530c6-0af0-402a-b2d1-d2cfdb0a1926.png)
