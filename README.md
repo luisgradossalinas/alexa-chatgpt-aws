@@ -103,7 +103,7 @@ Ahora puedes preguntar lo que desees a ChatGPT usando una Skill de Alexa.
 
 ![image](https://user-images.githubusercontent.com/2066453/233707636-c2bf8596-465d-45d1-b44a-451908ab7623.png)
 
-Si queremos ver esta interacción, podemos ir a AWS, al servicio de DynamoDB y en la tabla chatgpt_interaction veremos un registro.
+Si queremos ver esta interacción (pregunta y respuesta de ChatGPT), podemos ir a AWS, al servicio de DynamoDB y en la tabla chatgpt_interaction veremos un registro con la pregunta y respuesta de ChatGPT.
 
 ![image](https://user-images.githubusercontent.com/2066453/233708715-f7f7983e-a393-4838-89ba-1a9dcf666921.png)
 
