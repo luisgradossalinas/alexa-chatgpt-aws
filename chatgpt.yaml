@@ -46,12 +46,12 @@ Resources:
       FunctionName: !Sub 'fnc-alexa-skill-chatgpt-dynamodb'
       Description: Integrate with ChatGPT
       Role: !GetAtt rLambdaChatGPTRole.Arn
-      Handler: index.lambda_handler
+      Handler: lambda_function.lambda_handler
       Timeout: 500
       MemorySize: 128
       Environment:
         Variables: 
-          SM_NAME: !Sub rSecretCHATGPT.Name
+          SM_NAME: !Ref pNameSecret
           DYNAMO_TABLE: !Ref rDynamoDBTableChatGPT
       Code:
         S3Bucket: !Sub "${pNameProject}-code-${AWS::AccountId}"
