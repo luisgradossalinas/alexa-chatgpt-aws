@@ -39,9 +39,9 @@ Copiamos el contenido del json que se encuentra en la ruta skill/alexa-skill.jso
 
 <img width="991" src="https://user-images.githubusercontent.com/2066453/233673883-719fc575-0538-43ed-ba8a-2b4cdf0644c4.png">
 
-Creamos ahora una intención para usar CHATGPT, clic en Add Intent.
+Veremos las 2 intenciones que se han agregado : PreguntaIntent y DespedidaIntent.
 
-![Captura de Pantalla 2023-02-24 a la(s) 17 17 33](https://user-images.githubusercontent.com/2066453/221303986-bd1530c6-0af0-402a-b2d1-d2cfdb0a1926.png)
+<img width="991" src="https://user-images.githubusercontent.com/2066453/233674483-94331ef4-66df-4e55-b35d-398d4194381a.png">
 
 Indicamos por ejemplo el nombre : PreguntaIntent y clic en Create custom intent.
 
