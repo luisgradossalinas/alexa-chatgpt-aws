@@ -1,0 +1,78 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "api prueba",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "hello",
+                        "how are you",
+                        "say hi world",
+                        "say hi",
+                        "hi",
+                        "say hello world",
+                        "say hello"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PreguntaIntent",
+                    "slots": [
+                        {
+                            "name": "question",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "si dime {question}",
+                        "si {question}",
+                        "pregunta {question}",
+                        "quiero saber {question}",
+                        "puedes decirme {question}",
+                        "puedes {question}",
+                        "dime {question}",
+                        "por favor {question}"
+                    ]
+                },
+                {
+                    "name": "DespedidaIntent",
+                    "slots": [],
+                    "samples": [
+                        "no por el momento muchas gracias",
+                        "muchas gracias",
+                        "ya no gracias por la ayuda",
+                        "no por el momento gracias por ayudarme",
+                        "eso es todo muchas gracias",
+                        "eso es todo",
+                        "no gracias",
+                        "no muchas gracias",
+                        "ya no gracias",
+                        "ya no"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
