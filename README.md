@@ -91,4 +91,4 @@ Volvemos a Alexa Console y pegamos el valor del ARN de la función Lambda, clic 
 
 Clic en Test para probar desde la consola nuestra Skill.
 
-
+![image](https://user-images.githubusercontent.com/2066453/233701986-f285221c-d4c8-49bf-967b-8d09c39edb38.png)
