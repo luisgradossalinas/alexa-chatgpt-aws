@@ -4,8 +4,8 @@
 
 ## Requisitos
 
-- Tener una cuenta en AWS - https://gist.github.com/luisgradossalinas/c233c0333022c6617dd70609bfdf6441
-- Tener una cuenta en OpenAI - https://gist.github.com/luisgradossalinas/45c1c5ed27b7f73e0d3cf3bc0fbe846d
+- [Tener una cuenta en AWS](https://gist.github.com/luisgradossalinas/c233c0333022c6617dd70609bfdf6441)
+- [Tener una cuenta en OpenAI](https://gist.github.com/luisgradossalinas/45c1c5ed27b7f73e0d3cf3bc0fbe846d)
 
 ## Video con la explicación
 
