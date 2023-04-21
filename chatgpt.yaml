@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: 2010-09-09
-Description: "Integration Lambda with CHATGPT"
+Description: "Integration Alexa with ChatGPT"
 
 Parameters:
 
