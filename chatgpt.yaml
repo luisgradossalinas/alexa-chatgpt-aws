@@ -3,13 +3,18 @@ Description: "Integration Lambda with CHATGPT"
 
 Parameters:
 
+  pNameProject:
+    Description: Project name
+    Type: String
+    Default: alexachatgpt
+
   pNameSecret:
     Type: String
-    Default: SecretsGPTToken
+    Default: SecretsOpenAIToken
 
   pTableName:
     Type: String
-    Default: chatgpt_data
+    Default: chatgpt_interaction
 
 Resources:
         
@@ -31,30 +36,27 @@ Resources:
     Type: 'AWS::SecretsManager::Secret'
     Properties:
       Name: !Ref pNameSecret
-      Description: Almacena token del bot de Telegram
-      SecretString: '{"chatgpt_token":"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"}' #Ingresa tu token
+      Description: Almacena token de OpenAI
+      SecretString: '{"chatgpt_token":"sk-2dl7JRskMve1lY1xLROeT4BlbkFJPoNM7HGdvVZhz7O9jgGE"}' #Ingresa tu token
 
   rLambdaChatGPT:
     Type: AWS::Lambda::Function
     Properties:
       Runtime: python3.9
-      FunctionName: !Sub 'fnc-alexa-skill-chatgpt-save-dynamodb'
+      FunctionName: !Sub 'fnc-alexa-skill-chatgpt-dynamodb'
       Description: Integrate with ChatGPT
       Role: !GetAtt rLambdaChatGPTRole.Arn
       Handler: index.lambda_handler
       Timeout: 500
       MemorySize: 128
+      Environment:
+        Variables: 
+          SM_NAME: !Sub rSecretCHATGPT.Name
+          DYNAMO_TABLE: !Ref rDynamoDBTableChatGPT
       Code:
-        ZipFile: |
-            import json
+        S3Bucket: !Sub "${pNameProject}-code-${AWS::AccountId}"
+        S3Key: lambda/alexachatgpt.zip
 
-            def lambda_handler(event, context):
-                
-                return {
-                    'statusCode': 200,
-                    'resp' : "ok"
-                }
-        
   rLambdaChatGPTRole:
     Type: "AWS::IAM::Role"
     Properties:
@@ -68,7 +70,7 @@ Resources:
             Action: "sts:AssumeRole"
       Path: "/"
       Policies:
-        - PolicyName: !Sub 'PolicyCHATGPTAlexa'
+        - PolicyName: !Sub 'PolicyCHATGPTAlexa01'
           PolicyDocument:
             Version: "2012-10-17"
             Statement:

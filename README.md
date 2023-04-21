@@ -56,15 +56,19 @@ Clic en Save model y Build Model.
 
 <img width="991" src="https://user-images.githubusercontent.com/2066453/233682805-64683d49-1ff9-44f5-8335-d4f7fd7471ce.png">
 
-Creamos un nuevo stack en CloudFormation, a partir del archivo chatgpt.yaml.
+Abrir el contenido del archivo chatgpt.yaml e ingresamos en la línea 40 nuestro API Key de OpenAI.
 
-Actualizar el código de la lambda con el archivo zip code/alexa02mar.zip.
+ingresar imagen
 
-Lo subimos al bucket de S3, y le indicamos la url.
+Ejecutar en Cloud9
 
-<img width="942" src="https://user-images.githubusercontent.com/2066453/222504942-753615b9-88d9-487f-992f-86b89561b609.png">
+	cd alexa-chatgpt-aws/
+	sh sh/01_Start_Deploy.sh
 
-Le asociado un desencadenador que será Alexa Skills, le indicamos el Skill ID de nueva skill.
+Esperamos que se cree el stack en CloudFormation.
+
+Volvemos a Alexa y nos ubicamos en la opción Endpoint.
+
 
 <img width="794" src="https://user-images.githubusercontent.com/2066453/222495499-7192c53b-b802-426c-a8af-10e9c356d835.png">
 
