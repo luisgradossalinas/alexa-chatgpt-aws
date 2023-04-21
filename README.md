@@ -73,9 +73,21 @@ Volvemos a Alexa y nos ubicamos en la opción Endpoint, copiamos el valor de nue
 
 <img width="691" src="https://user-images.githubusercontent.com/2066453/233698594-cb5d5e21-8106-4306-b79f-d35c06376ef2.png">
 
-<img width="794" src="https://user-images.githubusercontent.com/2066453/222495499-7192c53b-b802-426c-a8af-10e9c356d835.png">
+Regresamos a AWS, y entramos a la función Lambda llamada : fnc-alexa-skill-chatgpt-dynamodb, para agregar un desencadenador. Clic en Add trigger.
 
-Regresamos a la consola de Alexa.
+<img width="691" src="https://user-images.githubusercontent.com/2066453/233698933-28c9308f-e524-47ce-9857-8706b54253e7.png">
+
+Seleccionamos Alexa e ingresamos nuestro Skill ID, clic en Add.
+
+<img width="691" src="https://user-images.githubusercontent.com/2066453/233699263-e12b70e1-016d-4ea4-93b9-8a6c3b30090d.png">
+
+Ahora copiamos el ARN de la función Lambda, para asociarlo al Skill de Alexa.
+
+<img width="691" src="https://user-images.githubusercontent.com/2066453/233699532-26e0c588-849d-4897-b180-fd70232ebd8e.png">
+
+Volvemos a Alexa Console y pegamos el valor del ARN de la función Lambda, clic en Save Endpoints.
+
+<img width="691" src="https://user-images.githubusercontent.com/2066453/233699750-eea55320-18db-4e01-8cee-3f7f1bb530f8.png">
 
 Clic en Endpoint.
 
