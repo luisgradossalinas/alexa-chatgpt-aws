@@ -97,6 +97,10 @@ Ahora puedes preguntar lo que desees a ChatGPT usando una Skill de Alexa.
 
 ![image](https://user-images.githubusercontent.com/2066453/233707636-c2bf8596-465d-45d1-b44a-451908ab7623.png)
 
+Si queremos ver esta interacción, podemos ir a AWS, al servicio de DynamoDB y en la tabla chatgpt_interaction veremos un registro.
+
+![image](https://user-images.githubusercontent.com/2066453/233708715-f7f7983e-a393-4838-89ba-1a9dcf666921.png)
+
 Si tenemos un dispositivo Echo Dot, también podemos utilizar esta skill.
 
 Espero te haya servido esta solución, si pudiste replicarlo, puedes publicarlo en LinkedIn con tus aportes, cambios y etiquétame (https://www.linkedin.com/in/luisgrados).
