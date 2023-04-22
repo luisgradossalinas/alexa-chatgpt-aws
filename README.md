@@ -62,6 +62,10 @@ Clic en Save model y Build Model.
 
 <img width="991" src="https://user-images.githubusercontent.com/2066453/233682805-64683d49-1ff9-44f5-8335-d4f7fd7471ce.png">
 
+Ejecutar en Cloud9.
+
+	git clone https://github.com/luisgradossalinas/alexa-chatgpt-aws
+
 Abrir el contenido del archivo chatgpt.yaml e ingresamos en la línea 40 nuestro API Key de OpenAI.
 
 <img width="791" src="https://user-images.githubusercontent.com/2066453/233698021-ac835ab5-63aa-4c2d-8c87-4bec57423c7d.png">
