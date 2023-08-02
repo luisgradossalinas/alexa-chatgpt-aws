@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "api chatgpt",
+            "invocationName": "hello chatbot",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
@@ -45,14 +45,16 @@
                         }
                     ],
                     "samples": [
-                        "si dime {question}",
-                        "si {question}",
-                        "pregunta {question}",
-                        "quiero saber {question}",
-                        "puedes decirme {question}",
-                        "puedes {question}",
+                        "if you tell me {question}",
+                        "yes {question}",
+                        "question {question}",
+                        "I want to know {question}",
+                        "you can tell me {question}",
+                        "you can {question}",
                         "dime {question}",
-                        "por favor {question}"
+                        "Please {question}",
+                        "jarvis {question}",
+                        "hi {question}"
                     ]
                 },
                 {
